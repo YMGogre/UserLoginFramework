@@ -103,6 +103,86 @@ namespace UserLoginFramework.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip1_HomePage {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip1_HomePage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip2_Task {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip2_Task", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip3_Calibration {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip3_Calibration", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip4_Device {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip4_Device", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip5_Para {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip5_Para", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip6_Log {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip6_Log", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip7_Internet {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip7_Internet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuStrip8_Data {
+            get {
+                object obj = ResourceManager.GetObject("MenuStrip8_Data", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Minimization_Black16 {
             get {
                 object obj = ResourceManager.GetObject("Minimization_Black16", resourceCulture);

@@ -49,6 +49,54 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calibration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calibration.Designer.cs">
+      <DependentUpon>Calibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManagement.Designer.cs">
+      <DependentUpon>DataManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeviceMessage.Designer.cs">
+      <DependentUpon>DeviceMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log.Designer.cs">
+      <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Network.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Network.Designer.cs">
+      <DependentUpon>Network.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parameter.Designer.cs">
+      <DependentUpon>Parameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task.Designer.cs">
+      <DependentUpon>Task.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIForms\LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,11 +117,41 @@
     <Compile Include="UIForms\RegistrationPage.Designer.cs">
       <DependentUpon>RegistrationPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIForms\ToolStripRadioButtonMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UIForms\ToolStripRadioButtonMenuItem.Designer.cs">
+      <DependentUpon>ToolStripRadioButtonMenuItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserDatabaseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>UserDatabaseDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Calibration.resx">
+      <DependentUpon>Calibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManagement.resx">
+      <DependentUpon>DataManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceMessage.resx">
+      <DependentUpon>DeviceMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log.resx">
+      <DependentUpon>Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Network.resx">
+      <DependentUpon>Network.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parameter.resx">
+      <DependentUpon>Parameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task.resx">
+      <DependentUpon>Task.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UIForms\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +226,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip1-HomePage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip2-Task.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip3-Calibration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip4-Device.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip5-Para.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip6-Log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip7-Internet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuStripIcon\MenuStrip8-Data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UIForms\SubForms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
