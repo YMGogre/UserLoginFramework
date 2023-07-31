@@ -49,52 +49,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calibration.cs">
+    <Compile Include="UIForms\SubForms\Calibration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calibration.Designer.cs">
+    <Compile Include="UIForms\SubForms\Calibration.Designer.cs">
       <DependentUpon>Calibration.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataManagement.cs">
+    <Compile Include="UIForms\SubForms\DataManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataManagement.Designer.cs">
+    <Compile Include="UIForms\SubForms\DataManagement.Designer.cs">
       <DependentUpon>DataManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeviceMessage.cs">
+    <Compile Include="UIForms\SubForms\DeviceMessage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeviceMessage.Designer.cs">
+    <Compile Include="UIForms\SubForms\DeviceMessage.Designer.cs">
       <DependentUpon>DeviceMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Log.cs">
+    <Compile Include="UIForms\SubForms\Log.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Log.Designer.cs">
+    <Compile Include="UIForms\SubForms\Log.Designer.cs">
       <DependentUpon>Log.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.cs">
+    <Compile Include="UIForms\SubForms\MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainPage.Designer.cs">
+    <Compile Include="UIForms\SubForms\MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Network.cs">
+    <Compile Include="UIForms\SubForms\Network.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Network.Designer.cs">
+    <Compile Include="UIForms\SubForms\Network.Designer.cs">
       <DependentUpon>Network.cs</DependentUpon>
     </Compile>
-    <Compile Include="Parameter.cs">
+    <Compile Include="UIForms\SubForms\Parameter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Parameter.Designer.cs">
+    <Compile Include="UIForms\SubForms\Parameter.Designer.cs">
       <DependentUpon>Parameter.cs</DependentUpon>
     </Compile>
-    <Compile Include="Task.cs">
+    <Compile Include="UIForms\SubForms\Task.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task.Designer.cs">
+    <Compile Include="UIForms\SubForms\Task.Designer.cs">
       <DependentUpon>Task.cs</DependentUpon>
     </Compile>
     <Compile Include="UIForms\LoginPage.cs">
@@ -128,28 +128,28 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UserDatabaseDataSet.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Calibration.resx">
+    <EmbeddedResource Include="UIForms\SubForms\Calibration.resx">
       <DependentUpon>Calibration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataManagement.resx">
+    <EmbeddedResource Include="UIForms\SubForms\DataManagement.resx">
       <DependentUpon>DataManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeviceMessage.resx">
+    <EmbeddedResource Include="UIForms\SubForms\DeviceMessage.resx">
       <DependentUpon>DeviceMessage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Log.resx">
+    <EmbeddedResource Include="UIForms\SubForms\Log.resx">
       <DependentUpon>Log.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainPage.resx">
+    <EmbeddedResource Include="UIForms\SubForms\MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Network.resx">
+    <EmbeddedResource Include="UIForms\SubForms\Network.resx">
       <DependentUpon>Network.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Parameter.resx">
+    <EmbeddedResource Include="UIForms\SubForms\Parameter.resx">
       <DependentUpon>Parameter.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Task.resx">
+    <EmbeddedResource Include="UIForms\SubForms\Task.resx">
       <DependentUpon>Task.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIForms\LoginPage.resx">
@@ -251,8 +251,6 @@
   <ItemGroup>
     <None Include="Resources\MenuStripIcon\MenuStrip8-Data.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UIForms\SubForms\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
