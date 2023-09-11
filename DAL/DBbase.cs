@@ -14,7 +14,7 @@ namespace DAL
         //public static string strCon = System.Configuration.ConfigurationManager.ConnectionStrings["ControlProgram.Properties.Settings.UserDatabaseConnectionString"].ConnectionString;
 
         //连接字符串
-        public static string strCon = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DAL\\DataBase\\UserDatabase.mdf;Integrated Security=True;Connect Timeout=30";
+        public static string strCon = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DataBase\\UserDatabase.mdf;Integrated Security=True;Connect Timeout=30";
 
         //实例化连接对象 con
         SqlConnection con = new SqlConnection(strCon);
