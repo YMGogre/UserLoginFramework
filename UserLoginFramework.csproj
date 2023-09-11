@@ -44,8 +44,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsFormsControlLibraryMadeByXJY">
-      <HintPath>..\..\..\..\xjy\06-自定义Winform控件库\WindowsFormsControlLibraryMadeByXJY\bin\Debug\WindowsFormsControlLibraryMadeByXJY.dll</HintPath>
+    <Reference Include="WindowsFormsControlLibraryMadeByXJY, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\WindowsFormsControlLibraryMadeByXJY.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
