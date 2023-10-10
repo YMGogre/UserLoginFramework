@@ -34,7 +34,8 @@ namespace UserLoginFramework
                 //如果BLL层中 useRegistration调用返回记录条数 大于1 则注册成功
                 if (b_userAccess.UserRegistration(m_userInfo) > 0)
                 {
-                    MessageBox.Show("注册成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if(MessageBox.Show("注册成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information) == DialogResult.OK)
+                        this.DialogResult = DialogResult.OK;
                 }
                 else
                 {

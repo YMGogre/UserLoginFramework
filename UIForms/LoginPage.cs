@@ -402,7 +402,8 @@ namespace UserLoginFramework
         private void linkLabel_Register_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             register.StartPosition = FormStartPosition.CenterParent;
-            register.ShowDialog();
+            if (register.ShowDialog() == DialogResult.OK)
+                this.userAccountTableAdapter.Fill(this.userDatabaseDataSet.UserAccount);
         }
     }
 }
