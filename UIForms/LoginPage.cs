@@ -239,7 +239,7 @@ namespace UserLoginFramework
                 //如果BLL层中 UserLogin查询返回结果大于0，则账号密码正确
                 if (b_userAccess.UserLogin(m_userInfo) > 0)
                 {
-                    MessageBox.Show("登录成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("登录成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.DialogResult = DialogResult.OK;
                 }
                 else

@@ -24,7 +24,15 @@ namespace UserLoginFramework
         public MainForm(string UserName)
         {
             InitializeComponent();
-
+            #region 初始化加载一次所有子页面，以创建子页面的窗口句柄
+            LoadForm(_dataManagement);
+            LoadForm(_network);
+            LoadForm(_log);
+            LoadForm(_parameter);
+            LoadForm(_deviceMessage);
+            LoadForm(_calibration);
+            LoadForm(_task);
+            #endregion
             //默认加载主页面
             LoadForm(_mainPage);
             menuItem_main.Checked = true;
@@ -48,6 +56,16 @@ namespace UserLoginFramework
             form.Dock = DockStyle.Fill;
             this.panel_subForm.Controls.Add(form);
             this.panel_subForm.Tag = form;
+            /**
+             * 窗口句柄是 Windows 操作系统用来标识和跟踪窗口的一种方式。
+             * 在 Winform 中，实例化对象（例如 Form form = new Form();）时并不会立刻
+             * 创建窗口句柄，窗口句柄的创建通常会在窗体或控件第一次需要被显示时发生。
+             * 例如，当你调用 form.show() 方法时，就会创建窗体及其所有控件的窗口句柄。
+             * 你可以通过 form.Handle 属性访问窗口句柄（如果你在窗口句柄创建之前就访问 
+             * Handle 属性，那么窗口句柄将会被提前创建；通常不推荐这样做），窗口句柄一旦
+             * 被创建就会一直存在，直至窗体被销毁。而在之后再次调用 form.show() 方法，就
+             * 会显示窗体，但不会重新创建窗口句柄
+             */
             form.Show();
         }
 
