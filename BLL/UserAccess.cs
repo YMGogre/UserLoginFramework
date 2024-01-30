@@ -30,7 +30,9 @@ namespace BLL
         /// <exception cref="ObjectDisposedException"></exception>
         public int UserLogin(Model.UserInfo m_userInfo)
         {
-            return d_userAccess.UserLogin(m_userInfo.username, m_userInfo.password);
+            //return d_userAccess.UserLogin(m_userInfo.username, m_userInfo.password);
+            // 参数化查询登录
+            return d_userAccess.ParameterizedQueryUserLogin(m_userInfo);
         }
 
         /// <summary>
@@ -45,7 +47,9 @@ namespace BLL
         /// <exception cref="ObjectDisposedException"></exception>
         public int UserRegistration(Model.UserInfo m_userInfo)
         {
-            return d_userAccess.UserRegistration(m_userInfo.username, m_userInfo.password);
+            //return d_userAccess.UserRegistration(m_userInfo.username, m_userInfo.password);
+            // 参数化查询注册
+            return d_userAccess.ParameterizedQueryUserRegistration(m_userInfo.username, m_userInfo.password);
         }
     }
 }
